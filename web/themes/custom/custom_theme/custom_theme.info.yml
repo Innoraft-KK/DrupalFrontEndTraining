@@ -1,0 +1,6 @@
+name: custom theme
+type: theme
+description: 'its a custom theme'
+core: 8.x
+core_version_requirement: ^9 || ^10
+base theme: bootstrap
