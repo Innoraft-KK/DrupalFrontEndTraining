@@ -48,4 +48,8 @@ theme:
   claro: 0
   bootstrap: 0
   custom_theme: 0
+  stable9: 0
+  bootstrap5: 0
+  b5kksubtheme: 0
+  kk_b5subtheme: 0
 profile: standard

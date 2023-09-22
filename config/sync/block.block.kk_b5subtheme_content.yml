@@ -1,0 +1,22 @@
+uuid: 9129a153-5534-4286-9e0e-f93ba44b8157
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kk_b5subtheme
+_core:
+  default_config_hash: JZEjQqNtbUopt8uHtSiPh5_mwpHI8NTry2vwf6zZpOE
+id: kk_b5subtheme_content
+theme: kk_b5subtheme
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

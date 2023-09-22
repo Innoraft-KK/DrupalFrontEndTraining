@@ -1,0 +1,22 @@
+uuid: 14e07353-19da-4abb-9e4d-e12bb6a5fd98
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5kksubtheme
+_core:
+  default_config_hash: m7NN9IBcRld7IU9djnhhlOZLk5NGq8q5yWSJl_l1qzc
+id: b5kksubtheme_messages
+theme: b5kksubtheme
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

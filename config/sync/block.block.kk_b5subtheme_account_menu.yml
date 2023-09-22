@@ -1,0 +1,27 @@
+uuid: f9034724-ffac-4b25-bea1-b7b5b8503fdf
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - kk_b5subtheme
+_core:
+  default_config_hash: 97RQkXnJbHqO_UZ9d3sAnSG-8r8N-HdubliK6QS2QFg
+id: kk_b5subtheme_account_menu
+theme: kk_b5subtheme
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

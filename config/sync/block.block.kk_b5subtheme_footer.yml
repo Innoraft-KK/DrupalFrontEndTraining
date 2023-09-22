@@ -1,0 +1,27 @@
+uuid: 7bc535dd-a016-4de8-ae41-24c72db14837
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - kk_b5subtheme
+_core:
+  default_config_hash: GCIgPZStuRIs1s3ZANyvnI2lxMU2SISSXrzwZQ4OQ7U
+id: kk_b5subtheme_footer
+theme: kk_b5subtheme
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

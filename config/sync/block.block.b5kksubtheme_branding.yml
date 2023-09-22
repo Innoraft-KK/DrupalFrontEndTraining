@@ -1,0 +1,25 @@
+uuid: b5ec5d51-a2c1-4c69-b9ac-bd27c6b7ad29
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5kksubtheme
+_core:
+  default_config_hash: sVXb8i5-7m7G7cOrNtZVUqBcmGO_rZxznIHAeEzS7g8
+id: b5kksubtheme_branding
+theme: b5kksubtheme
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

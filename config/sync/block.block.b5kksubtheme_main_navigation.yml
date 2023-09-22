@@ -1,0 +1,27 @@
+uuid: dbec03e1-0d8e-4ad3-a06a-120f70ab4ebf
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - b5kksubtheme
+_core:
+  default_config_hash: k7OsmR9vDwze5JzlulpaNRUe--_AkhCsD2f2hKZ6Q6s
+id: b5kksubtheme_main_navigation
+theme: b5kksubtheme
+region: nav_main
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

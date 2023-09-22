@@ -1,0 +1,25 @@
+uuid: 914eb5a4-bd0d-4603-a8dd-26d7cb53a41d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kk_b5subtheme
+_core:
+  default_config_hash: GNfFSzyYIqLx8SYN0CTJ2YLMo69Y6WK35_c3GKKe79Y
+id: kk_b5subtheme_branding
+theme: kk_b5subtheme
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
